@@ -9,6 +9,9 @@ cmb2-magicsuggest allows you to add a [magicsuggest](https://github.com/nicolasb
 
 Follow the example in [`example-field-setup.php`](https://github.com/eliottparis/cmb2-magicsuggest-field/blob/master/example-field-setup.php) for a demonstration. The example assumes you have both CMB2 and this extension in your mu-plugins directory. If you're using CMB2 installed as a plugin, remove [lines 6-9 of the example](https://github.com/eliottparis/cmb2-magicsuggest-field/blob/master/example-field-setup.php#L6-L9).
 
+## Screenshots
+![Image](screenshot-1.png?raw=true)
+
 ## Customization
 The example demonstrates how to configure the Magic Suggest custom field.
 
