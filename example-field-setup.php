@@ -68,6 +68,7 @@ function cmb2_magicsuggest_metaboxes_example() {
         'options' => array(
             'data'  =>  array('Banana', 'Apple', 'Orange', 'Lemon', 'Kiwi'),
             'allow_free_entries' => true,
+            //'allow_duplicates' => false, // true to allow the user to reenter the same entry multiple times.
             'max_selection'      => 6,  // limit the number of items entered.
             //'expand_on_focus'    => false,
         ),

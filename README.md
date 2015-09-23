@@ -9,6 +9,7 @@ The `magicselect` field acts much like a select/multiselect field but with a typ
 This field can also be configured to : 
  * allow the user to enter non-suggested entries.
  * set the limit of items that can be selected.
+ * allow the user to reenter the same entry multiple times.
 
 [magicsuggest script demo](http://nicolasbize.com/magicsuggest/examples.html).
 

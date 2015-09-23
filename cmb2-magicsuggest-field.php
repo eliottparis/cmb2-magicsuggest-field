@@ -47,6 +47,7 @@ class EP_CMB2_MagicSuggest_Field {
 			'max_selection'			=> 10,
 			'value_field'			=> 'id',
 			'display_field'			=> 'name',
+			'allow_duplicates'		=> false,
 		) );
 
 		// Setup our attributes
@@ -88,6 +89,7 @@ class EP_CMB2_MagicSuggest_Field {
 		        	required: <?php echo $attrs['required'] == "required" ? 'true' : 'false'; ?>,
 		        	allowFreeEntries: <?php echo $args['allow_free_entries'] ? 'true' : 'false'; ?>,
 		        	expandOnFocus: <?php echo $args['expand_on_focus'] ? 'true' : 'false'; ?>,
+		        	allowDuplicates: <?php echo $args['allow_duplicates'] ? 'true' : 'false'; ?>,
 		        	maxSelection: <?php echo json_encode($args['max_selection']); ?>,
 		        	valueField: <?php echo json_encode($args['value_field']); ?>,
 		        	displayField: <?php echo json_encode($args['display_field']); ?>,
