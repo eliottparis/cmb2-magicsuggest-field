@@ -1,0 +1,21 @@
+/* ---- Style magicsuggest field ---- */
+.cmb-type-magicsuggest .ms-ctn {
+	border: 1px solid #ddd; 
+}
+.cmb-type-magicsuggest .ms-ctn.ms-inv { 
+	border: 1px solid #f66; 
+}
+.cmb-type-magicsuggest .ms-ctn.ms-ctn-focus { 
+	border: 1px solid #66afe9; 
+}
+.cmb-type-magicsuggest .ms-ctn .ms-trigger {
+	border-radius : 0;
+}
+.cmb-type-magicsuggest .ms-res-ctn {
+	margin-left: -12px;
+	margin-top: 10px;
+	border-top: 1px dashed #ddd;
+}
+.cmb-type-magicsuggest .ms-sel-item {
+	border-radius: 0;
+}
